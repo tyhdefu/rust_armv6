@@ -1,4 +1,4 @@
-FROM rust:1.65.0-slim
+FROM rust:1.92.0-slim
 
 # Prevent any error messages about there not being a terminal
 ENV DEBIAN_FRONTEND noninteractive
